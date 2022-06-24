@@ -1,0 +1,66 @@
+<htmL>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+            }
+            .parent{
+                width: 100%;
+                height: 100%;
+            }
+            .child1{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: space-around;
+                padding: 50px 10px ;
+            }
+            .child2{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: space-around;
+                padding: 50px 10px ;
+            }
+            .maxchild1{
+                width: 20%;
+                height: 100%;
+                border: 10px solid black;
+            }
+            .minchild1{
+                width: 20%;
+                height: 100%;
+                border: 10px solid black;
+            }
+            .maxchild1:hover{
+                background-color:blue;
+                border-radius: 50%;
+            }
+            .minchild1:hover{
+                background-color:aqua;
+                border-radius: 50%;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child1">
+                <div class="maxchild1"></div>
+                <div class="maxchild1"></div>
+                <div class="maxchild1"></div>
+                
+            </div>
+            <div class="child2">
+                <div class="minchild1"></div>
+                <div class="minchild1"></div>
+                <div class="minchild1"></div>
+               
+
+            </div>
+        </div>
+    </body>
+</htmL>

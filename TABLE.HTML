@@ -1,0 +1,100 @@
+<html>
+<head>
+
+    <style>
+        h1{
+            color: red;
+            background-color: blue;
+            border: 10px dashed green;
+            margin: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 20px;
+            word-spacing: 30px;
+            text-shadow: 0px 10px 10px white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            font-weight: 200;
+            opacity: 0.9;
+            width: 60%;
+            height: 40%;
+            border-radius: 20%;
+            text-decoration: none;
+
+        }
+    </style>
+    <title>application from</title> 
+</head>
+<body>
+    <h1><ins>appilcation form</ins></h1>
+    <table border="1"> 
+        <thead>
+            <tr>
+                <td>NAME</td>
+                <td>VALUE</td>
+            </tr>
+        </thead>
+        <tbody>
+            <form>
+            <tr>
+                <td><label for="name">name:</label></td>
+                <td><input type="text" required minlength="6" maxlength="25" id="name"></td>
+            </tr>
+        
+            <tr>
+                <td><label>gender:</label></td>
+                <td>
+                    <input type="radio"   name="gender" id="male">
+                    <label for="male">male</label>
+                    <br>
+                    <input type="radio"   name="gender" id="female">
+                    <label for="female">female</label>
+                </td>
+            
+            </tr>
+            <tr>
+               <td><label>EYE COLOR</label> </td>
+               <td>
+                    <select>
+                    <option>RED</option>
+                    <option>GREY</option>
+                    <option>ASH</option>
+                    <option>WHITISH</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>CHECK ALL THAT APPLY</label></td>
+                <td>
+                    <input type="checkbox" id="6 FEETS">
+                    <label for="6 FEETS">6 FEETS</label>
+                    <BR>
+                    <input type="checkbox" id="200POUNDS">
+                    <label for="200POUNDS">200 POUNDS</label>
+                    
+                </td>
+            </tr>
+            
+            
+            <tr>
+                <table border="1">
+                    <tr>
+                        <td><label>DESCRIBE YOUR ATHLETIC ABILITY: </label></td>
+                    </tr>
+                    <tr>
+                        <td><textarea rows="5" cols="45"></textarea></td>
+                    </tr>
+                    <tr style="text-align:center;">
+                        <td><input type="submit" value="ENTER MY INFORMATION">
+                        </td>
+                    </tr>
+                </table>
+            </tr>
+            </form>
+        
+        </tbody>
+
+    </table>
+
+</body>
+</html>

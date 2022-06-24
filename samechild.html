@@ -1,0 +1,82 @@
+<htmL>
+    <head>
+        <style>
+            .parent{
+                background-color: aliceblue;
+                width: 100%;
+                height: 100%;
+                display: flex;
+
+            }
+            .child{
+                background-color: aqua;
+                width: 50%;
+                height: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+            
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            input[type='submit']{
+                background-color:lightgreen;
+                color: white;
+                width: 50%;
+                height: 10%;
+                margin: 10px;
+                border: none;
+            }
+            a{
+                color: greenyellow;
+                text-decoration: none;
+                text-transform: capitalize;
+            }
+            input[type='text'], input[type='password']
+            {
+                background-color: antiquewhite; 
+                color:black;
+                width: 200px;
+                height: 10%;
+                margin: 10px 10px;
+                text-transform: uppercase;
+                text-decoration: underline;
+                border-radius: 10px;
+                text-align: center;
+                border: none;
+            }
+            
+           
+        </style>
+
+    </head>
+    <body>
+        <form>
+            <div class="parent">
+                <div class="child">
+
+                </div>
+
+                <div class="child"> 
+                    <div class="child2">
+                        <h3>ACCOUNT LOGIN</h3>
+                        <br>
+                        <input type="text" placeholder="username">
+                        <input type="password" placeholder="password">
+                        <br>
+                        <input type="submit" value="SIGN IN">
+                        <br>
+                        <label>forget</label> &nbsp; <a href="#">username</a>/<a href="#">password?</a>
+                        
+
+
+                    </div>   
+                </div>
+            </div>
+        </form>
+    </body>    
+</htmL>

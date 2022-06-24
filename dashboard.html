@@ -1,0 +1,236 @@
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0;
+            }
+            .parent{
+                background-color:#73d4ff;
+                width: 100%;
+                height: 100%;
+                padding: 20px 40px 20px 40px;
+
+            }
+            
+            .parentchild{
+                background-color:#f2f2f2;
+                width: 100%;
+                height: 100%;
+                box-shadow: 5px 5px 5px black;
+                display: flex;
+
+            }
+            .left{
+                background-color:white;
+                width: 20%;
+                height: 100%;
+                padding: 20px;
+                display: flex;
+                flex-direction:column ;
+            }
+
+            .right{
+                background-color:#f2f2f2;
+                width: 80%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            .maxchild1{
+                background-color:#f2f2f2;
+                width: 100%;
+                height: 10%;
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+            }
+            .maxchild2{
+                background-color:#f2f2f2;
+                width: 100%;
+                height: 40%;
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;
+               
+            }
+            .maxchild3{
+                background-color:#f2f2f2;
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;
+            }
+            .minchild1{
+                background-color:white;
+                width: 30%;
+                height: 80%;
+                box-shadow: 5px 5px 3px black;
+
+            }
+            .minchild2{
+                background-color:white;
+                width: 30%;
+                height: 80%;
+                box-shadow: 5px 5px 3px black;
+
+            }
+            .minchild3{
+                background-color:white;
+                width: 30%;
+                height: 80%;
+                box-shadow: 5px 5px 3px black;
+
+            }
+            .minchild4{
+                background-color:white;
+                width: 60%;
+                height: 80%;
+                box-shadow: 5px 5px 3px black;
+
+            }
+            .minchild5{
+                background-color:white;
+                width: 30%;
+                height: 80%;
+                box-shadow: 5px 5px 3px black;
+
+            }
+            
+            input[type='submit']
+            {
+                color: white;
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                background-color: plum;
+                border: 0;
+                border-radius: 10px;
+                margin: 10px 0px 0px 0px;
+
+            }
+            input[type='submit']:hover{
+                color: black;
+            }
+            .leftimg{
+                border-radius: 100px;
+                padding: 50px;
+                color: #000;
+                
+
+              }
+              .lefttext{
+                  color: #000;
+                  
+                  padding: 0px 20px 20px 20px;
+
+              }
+
+            .leftimg img{
+                border: 10px solid black;
+                border-radius: 100px;
+                width: 150px;
+                height: 150px;
+
+            }
+            .lefttext p{
+                text-transform: uppercase;
+                font-size: 15px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                padding: 0px 0px 0px 20px;
+            }
+            hr{
+                font-size: 10px;
+                background-color: #73d4ff;
+                height: 5px;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            input[type='button']{
+                text-align: center;
+                text-transform: uppercase;
+                width: 100%;
+                height: 50px;
+                background-color: aquamarine;
+                border: 0;
+                border-radius: 10px;
+                color: white;
+               
+            }
+            .name1{
+                color: #000;
+                font-size: 10x;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-align: center;
+                text-transform: capitalize;
+                position: relative;
+            
+            }
+            .name1 p{
+                position: absolute;
+                top: 10px;
+                font-size: 12px;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="parentchild">
+                <div class="left">
+                    <div class="leftimg">
+                        <img src="ads.png">
+                        <div class="name1">
+                            <h3>sandeep kumar</h3>
+                        <p>sundeep.5858@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="lefttext">
+                        <hr>
+                        <p>dashboard</p>
+                        <p>account profile</p>
+                        <p>exercise plans</p>
+                        <p>biet plans</p>
+                        <p>subscription</p>
+                        <p>extra services</p>
+                        <hr>
+                        <input type="button" value="logout">
+
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="maxchild1">
+                        <p>PERSONAL PROGRESS</p>
+                        <input type="submit" value="CONTACT SUPPORT">
+                    </div>
+                    <div class="maxchild2">
+                        <div class="minchild1">
+                            <img src="minchild1.jpg">
+                        </div>
+                        <div class="minchild2">
+                            <img src="minchild2.jpg">
+                        </div>
+                        <div class="minchild3">
+                            <img src="minchild3.jpg">
+                        </div>
+                    </div>
+                    <div class="maxchild3">
+                        <div class="minchild4">
+                            <img src="minchild4.jpg">
+                        </div>
+                        <div class="minchild5">
+                            <img src="minchild5.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,115 @@
+<html>
+<head>
+    <title>application from</title> 
+    <style>
+        input{
+            border:5px antiquewhite solid;
+        }
+        select{
+            border: 5px aqua dotted;
+            padding: 30px;
+            text-align: right;
+            text-transform: uppercase;
+            text-decoration: overline;
+        }
+        p{
+            border: 10px solid red;
+        }
+        .para{
+            border: 5px dotted blue;
+            background-color: rgb(0, 0, 0);
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>application form</tr>
+        </thead>
+        <tbody>
+            <P>ABC</P>
+            <P class="para"> DEF</P>
+            <form>
+            <tr>
+                <td><label for="name">name:</label></td>
+                <td><input type="text" required minlength="6" maxlength="25" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">email:</label></td>
+                <td><input type="email" required minlength="6" maxlength="25" id="email"></td>
+            </tr>
+            <tr>
+                <td><label>gender:</label></td>
+                <td><label for="male">male</label>
+                <input type="radio"   name="gender" id="male">
+                <label for="female">female</label>
+                <input type="radio"   name="gender" id="female"></td>
+            
+            </tr>
+            <tr>
+               <td><label>Nationality</label> </td>
+               <td>
+                    <select>
+                    <option>indian</option>
+                    <option>chinnesse</option>
+                    <option>japanesses</option>
+                    <option>usain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>skills</label></td>
+                <td><label for="asp.net">asp.net</label>
+                    <input type="checkbox" id="asp.net">
+                    <label for="jQuery">jQuery</label>
+                    <input type="checkbox" id="jQuery">
+                    <br>
+                    <label for="MVC">MVC</label>
+                    <input type="checkbox" id="MVC">
+                    <label for="SQL SERVER">SQL SERVER</label>
+                    <input type="checkbox" id="SQL SERVER">
+                </td>
+            </tr>
+            <tr>
+                <td><label>post applying <br> for</label></td>
+                <td><label for="trainee">trainee</label>
+                    <input type="radio" id="trainee" name="post">
+                    <label for="SE">SOFTEGG</label>
+                    <input type="radio" id="SE" name="post">
+                    <br>
+                    <label for="TL">TL</label>
+                    <input type="radio" id="TL" name="post">
+                    <label for="PM">PRO MAN</label>
+                    <input type="radio" id="PM" name="post">
+                </td>
+                    
+                
+            </tr>
+            <tr>
+                <td><label>upload <br> resume:</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label>paste your <br> resume </label></td>
+                <td><textarea rows="5" cloumns="10"></textarea></td>
+            </tr>
+            <td><input type="checkbox"></td>
+            <td><label>notify me the status in the mail</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio"></td>
+                <td><label>i agree the terms and conditions</label></td>
+
+            </tr>
+            <tr>
+                <td><input type="submit">
+                    <input type="reset"></td>
+            </tr>
+            </form>
+        
+        </tbody>
+
+    </table>
+
+</body>
+</html>

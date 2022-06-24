@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0;
+            }
+            .parent{
+                background-color: #f1f2f6;
+                width: 100%;
+                height: 100%;
+                display: flex;
+            }
+            .left{
+                background-color: #f1f2f6;
+                width: 60%;
+                height: 100%;
+                padding: 200px 0px 0px 500px;
+                
+            }
+            .right{
+                background-color:#f1f2f6;
+                width: 40%;
+                height: 100%;
+                padding: 150px 150px 150px 0px;
+            
+            }
+            .left h1{
+                font-size: 50px;
+                color: blue;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: left;
+                
+            }
+            .left h3{
+                font-size: 20px;
+                color: black;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: left;
+                position: absolute;
+                top: 270px;
+            }
+            .rightchild{
+                background-color:white;
+                width: 80%;
+                height: 90%;
+                padding: 15px;
+                box-shadow: 5px 5px 3px black;
+                border-radius: 10px;
+                margin: 10px 10px;
+                
+            }
+            .rightchild input[type='text']      {
+                color: black;
+                border: 1px solid black;
+                text-transform: capitalize;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                width: 100%;
+                height: 15%;
+                border-radius: 5px;
+                padding: 10px;
+                margin: 10px 0px;
+            }   
+            .rightchild input[type='password']      {
+                color: black;
+                border: 1px solid black;
+                text-transform: capitalize;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                width: 100%;
+                height: 15%;
+                border-radius: 5px;
+                padding: 10px;
+                margin: 10px 0px;
+            }   
+            .rightchild input[type='submit']      {
+                color:white;
+                border: 1px solid black;
+                text-transform: capitalize;
+                text-align: center;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                width: 100%;
+                height: 15%;
+                border-radius: 5px;
+                padding: 10px;
+                background-color: #1878f3;
+                margin: 10px 0px;
+                border: 0;
+            }   
+            .rightchild input[type='button']      {
+                color: white;
+                border: 1px solid black;
+                text-transform: capitalize;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                width: 50%;
+                height: 15%;
+                border-radius: 5px;
+                padding: 10px;
+                background-color: #46b52a;
+                text-align: center;
+                margin: 10px 0px 0px 100px;
+                border: 0;
+            }   
+            .rightchild  .atag   {
+                color: #1878f3;
+                text-transform: capitalize;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                width: 50%;
+                height: 15%;
+                border-radius: 5px;
+                padding: 10px;
+                text-align: center;
+                margin: 10px 0px 0px 110px;
+                text-decoration: none;
+            }   
+            p{
+                color: black;
+                padding-left: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="left">
+                <h1>facebook</h1>
+                <h3>facebbok helps you connect and share <br> with the people in your life...</h3>
+            </div>
+            <div class="right">
+                <div class="rightchild">
+                    <input type="text" placeholder="email address or phone number"><br>
+                    <input type="password" placeholder="password"><br>
+                    <a href="dashboard.html">
+                    <input type="submit" value="log in">
+                    </a>
+                    <br>
+                    <div class="atag">
+                    <a href="">forotten password?</a>
+                    </div>
+                    <hr>
+                    <input type="button" value="create new account">
+
+                </div>
+                <p>create a page for a celebrity, brand or business.</p>
+            </div>
+        </div>
+    </body>
+</html>
